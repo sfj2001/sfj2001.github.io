@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>招募编辑</title>
+    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
+    <content><![CDATA[<h1 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h1><ul>
+<li>学习或使用过markdown编写md文件</li>
+<li>了解github的使用</li>
+<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>能接受目前没有报酬</li>
+</ul>
+<h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><p>在网站主页点击邮箱，与作者取得联系</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2023/09/18/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
