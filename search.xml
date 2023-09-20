@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>招募编辑</title>
-    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
-    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
-<li>学习或使用过markdown编写md文件</li>
-<li>了解github的使用</li>
-<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li>能接受目前没有报酬</li>
-</ul>
-<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
-]]></content>
-      <tags>
-        <tag>招募</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第二章知识点总结</title>
     <url>/2023/09/19/%E3%80%8A%E7%94%B5%E7%BD%91%E7%BB%9C%E3%80%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h2 id="0-本章的核心问题"><a href="#0-本章的核心问题" class="headerlink" title="0 本章的核心问题"></a>0 本章的核心问题</h2><ul>
@@ -165,98 +150,7 @@
 <h3 id="3-上述理论的应用————生成大型网络的节点导纳矩阵Y阵"><a href="#3-上述理论的应用————生成大型网络的节点导纳矩阵Y阵" class="headerlink" title="3 上述理论的应用————生成大型网络的节点导纳矩阵Y阵"></a>3 上述理论的应用————生成大型网络的节点导纳矩阵<code>Y</code>阵</h3><h4 id="3-1-KCL和KVL的矩阵形式"><a href="#3-1-KCL和KVL的矩阵形式" class="headerlink" title="3.1 KCL和KVL的矩阵形式"></a>3.1 KCL和KVL的矩阵形式</h4><h5 id="3-1-1-KCL的矩阵形式"><a href="#3-1-1-KCL的矩阵形式" class="headerlink" title="3.1.1 KCL的矩阵形式"></a>3.1.1 KCL的矩阵形式</h5><h5 id="3-1-2-KVL的矩阵形式"><a href="#3-1-2-KVL的矩阵形式" class="headerlink" title="3.1.2 KVL的矩阵形式"></a>3.1.2 KVL的矩阵形式</h5><h4 id="3-2-用A阵和Yb阵生成节点导纳矩阵"><a href="#3-2-用A阵和Yb阵生成节点导纳矩阵" class="headerlink" title="3.2 用A阵和Yb阵生成节点导纳矩阵"></a>3.2 用A阵和Yb阵生成节点导纳矩阵</h4>]]></content>
       <tags>
         <tag>电网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第四章作业思路分享</title>
-    <url>/2023/09/19/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<h3 id="1-前置知识（支路追加法）"><a href="#1-前置知识（支路追加法）" class="headerlink" title="1 前置知识（支路追加法）"></a>1 前置知识（支路追加法）</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-1：追加树支</p>
-</div><div class="notel-content"><ul>
-<li>在参考节点上，追加树支；只有自阻抗位置元素是新增的阻抗值，其余位置元素都是<code>0</code></li>
-<li>在非参考节点上，追加树支<ul>
-<li>自阻抗位置元素为被追加节点自阻抗与新增阻抗值的和</li>
-<li>新增行、列其余位置元素，与被追加支路与其他节点的互阻抗相同</li>
-</ul>
-</li>
-</ul>
-<details class="default" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Folding 如此追加树支的原因： 点击查看更多 </summary>
-              <div class='content'>
-              <div class="note default"><p>这里实际上并不要求掌握</p></div> <p>从节点阻抗矩阵的的定义出发，考虑追加树枝网络的拓扑结构</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/add_branch.jpg"
-                      alt="alt "
-                ></p><p>节点阻抗矩阵各元素的定义：</p><ul><li>自阻抗：从某节点注入单位电流，在该节点测得的电压</li><li>互阻抗：从某节点注入单位电流，在其他节点测得的电压</li></ul><p>实际上，在节点i追加树支（引入节点i+1）并在节点i+1注入单位电流，<strong>对于除节点i+1以外的其他节点</strong>而言，与在节点i注入单位电流<em><strong>并没有区别</strong></em>。</p><p>因为节点i+1是通过追加的树支与网络连接的，因此，节点i+1的自阻抗是节点i的自阻抗与追加树支阻抗的和。</p>
-              </div>
-            </details>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-2：追加连支</p>
-</div><div class="notel-content"><p>方法</p>
-<ul>
-<li>确定<code>Am</code>阵</li>
-<li>计算公式中相关量</li>
-</ul>
-<p>注意：  </p>
-<ul>
-<li>每次只增加一条连支</li>
-<li>每次增加连支，节点阻抗矩阵的修正形式如下：</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/with_brach.png"
-                      alt="alt "
-                ></p>
-</div></div>
-<h3 id="2-作业思路"><a href="#2-作业思路" class="headerlink" title="2 作业思路"></a>2 作业思路</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b2</p>
-</div><div class="notel-content"><p>相当于从0矩阵追加树支b1，并引入节点2；矩阵如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/solve-1.png"
-                      alt="alt "
-                ></p>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b1、b3</p>
-</div><div class="notel-content"><blockquote>
-<p>追加b1、b3无本质区别，这里只讨论b1的情况 </p>
-</blockquote>
-<p>根据追加树支的原则，b1加在了节点n2(非参考节点)上</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/solve-2.png"
-                      alt="alt "
-                ></p>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加连支b3</p>
-</div><div class="notel-content"><blockquote>
-<p>这里只给出了<code>A</code>阵</p>
-</blockquote>
-<p>特别注意：<strong>节点n2是第一个引入的</strong>，因此，A阵第一个元素应讨论<strong>n2节点与b3支路的关系</strong><br>故此，A阵如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/solve-3.png"
-                      alt="alt "
-                ></p>
-<p>剩下的工作就是计算追加支路后的<code>Zn</code>阵</p>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>补充说明</p>
-</div><div class="notel-content"><p>因为本题已经给定了支路追加的顺序；因此<em><strong>看起来</strong></em>支路追加法应采用“先树支后连支”的方法。<br>实际上，对于一个给定代求的网络，可能树支和连支<strong>交替追加</strong>可能求解起来更为简便。<br>这是因为：进行一次连支的追加计算，就是一个十分庞大的工程；因此趁节点阻抗矩阵阶数低的情况下，完成几个连支的追加是有利于节省储存容量、提高计算速度的。</p>
-</div></div>
-
-
-
-
-]]></content>
-      <tags>
-        <tag>电网络</tag>
-        <tag>作业思路分享</tag>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -361,10 +255,120 @@
 <div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>附加说明</p>
 </div><div class="notel-content"><p>分裂法不仅只有分裂支路电流的情况，回路电流、割集的相关参数都可以予以分裂。</p>
 <p>从手算角度，也许分裂法过于繁琐；但从工程实际角度分析，通过繁琐的步骤，能够减小一次计算的存储容量；在一定算力的情况下，给分析大型网络提供了可能。</p>
-</div></div>]]></content>
+</div></div>
+
+<h2 id="3-程序"><a href="#3-程序" class="headerlink" title="3 程序"></a>3 程序</h2><p>为了验证手算结果的准确性，笔者基于Matlab编写了程序用以验证。</p>
+<p><a href="/code/power_network/unit5_text.m">点这里下载程序</a></p>
+]]></content>
       <tags>
         <tag>电网络</tag>
         <tag>作业思路分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第四章作业思路分享</title>
+    <url>/2023/09/19/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h3 id="1-前置知识（支路追加法）"><a href="#1-前置知识（支路追加法）" class="headerlink" title="1 前置知识（支路追加法）"></a>1 前置知识（支路追加法）</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-1：追加树支</p>
+</div><div class="notel-content"><ul>
+<li>在参考节点上，追加树支；只有自阻抗位置元素是新增的阻抗值，其余位置元素都是<code>0</code></li>
+<li>在非参考节点上，追加树支<ul>
+<li>自阻抗位置元素为被追加节点自阻抗与新增阻抗值的和</li>
+<li>新增行、列其余位置元素，与被追加支路与其他节点的互阻抗相同</li>
+</ul>
+</li>
+</ul>
+<details class="default" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Folding 如此追加树支的原因： 点击查看更多 </summary>
+              <div class='content'>
+              <div class="note default"><p>这里实际上并不要求掌握</p></div> <p>从节点阻抗矩阵的的定义出发，考虑追加树枝网络的拓扑结构</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/add_branch.jpg"
+                      alt="alt "
+                ></p><p>节点阻抗矩阵各元素的定义：</p><ul><li>自阻抗：从某节点注入单位电流，在该节点测得的电压</li><li>互阻抗：从某节点注入单位电流，在其他节点测得的电压</li></ul><p>实际上，在节点i追加树支（引入节点i+1）并在节点i+1注入单位电流，<strong>对于除节点i+1以外的其他节点</strong>而言，与在节点i注入单位电流<em><strong>并没有区别</strong></em>。</p><p>因为节点i+1是通过追加的树支与网络连接的，因此，节点i+1的自阻抗是节点i的自阻抗与追加树支阻抗的和。</p>
+              </div>
+            </details>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-2：追加连支</p>
+</div><div class="notel-content"><p>方法</p>
+<ul>
+<li>确定<code>Am</code>阵</li>
+<li>计算公式中相关量</li>
+</ul>
+<p>注意：  </p>
+<ul>
+<li>每次只增加一条连支</li>
+<li>每次增加连支，节点阻抗矩阵的修正形式如下：</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/with_brach.png"
+                      alt="alt "
+                ></p>
+</div></div>
+<h3 id="2-作业思路"><a href="#2-作业思路" class="headerlink" title="2 作业思路"></a>2 作业思路</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b2</p>
+</div><div class="notel-content"><p>相当于从0矩阵追加树支b1，并引入节点2；矩阵如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/solve-1.png"
+                      alt="alt "
+                ></p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b1、b3</p>
+</div><div class="notel-content"><blockquote>
+<p>追加b1、b3无本质区别，这里只讨论b1的情况 </p>
+</blockquote>
+<p>根据追加树支的原则，b1加在了节点n2(非参考节点)上</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/solve-2.png"
+                      alt="alt "
+                ></p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加连支b3</p>
+</div><div class="notel-content"><blockquote>
+<p>这里只给出了<code>A</code>阵</p>
+</blockquote>
+<p>特别注意：<strong>节点n2是第一个引入的</strong>，因此，A阵第一个元素应讨论<strong>n2节点与b3支路的关系</strong><br>故此，A阵如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/solve-3.png"
+                      alt="alt "
+                ></p>
+<p>剩下的工作就是计算追加支路后的<code>Zn</code>阵</p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>补充说明</p>
+</div><div class="notel-content"><p>因为本题已经给定了支路追加的顺序；因此<em><strong>看起来</strong></em>支路追加法应采用“先树支后连支”的方法。<br>实际上，对于一个给定代求的网络，可能树支和连支<strong>交替追加</strong>可能求解起来更为简便。<br>这是因为：进行一次连支的追加计算，就是一个十分庞大的工程；因此趁节点阻抗矩阵阶数低的情况下，完成几个连支的追加是有利于节省储存容量、提高计算速度的。</p>
+</div></div>
+
+<h2 id="3-程序"><a href="#3-程序" class="headerlink" title="3 程序"></a>3 程序</h2><p>为了验证手算结果的准确性，笔者基于Matlab编写了程序用以验证。</p>
+<p><a href="/code/power_network/unit4.rar">点这里下载程序</a></p>
+]]></content>
+      <tags>
+        <tag>电网络</tag>
+        <tag>作业思路分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>招募编辑</title>
+    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
+    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
+<li>学习或使用过markdown编写md文件</li>
+<li>了解github的使用</li>
+<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>能接受目前没有报酬</li>
+</ul>
+<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
+]]></content>
+      <tags>
+        <tag>招募</tag>
       </tags>
   </entry>
 </search>
