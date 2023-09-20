@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>招募编辑</title>
+    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
+    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
+<li>学习或使用过markdown编写md文件</li>
+<li>了解github的使用</li>
+<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>能接受目前没有报酬</li>
+</ul>
+<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
+]]></content>
+      <tags>
+        <tag>招募</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第二章知识点总结</title>
     <url>/2023/09/19/%E3%80%8A%E7%94%B5%E7%BD%91%E7%BB%9C%E3%80%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h2 id="0-本章的核心问题"><a href="#0-本章的核心问题" class="headerlink" title="0 本章的核心问题"></a>0 本章的核心问题</h2><ul>
@@ -45,7 +60,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/image/create_A.jpg"
+                     data-src="/image/knowledge/create_A.jpg"
                       alt="alt 生成A阵"
                 ></p>
 <blockquote>
@@ -82,7 +97,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/image/create_B.jpg"
+                     data-src="/image/knowledge/create_B.jpg"
                       alt="alt 生成Bf阵"
                 ></p>
 <h5 id="1-3-4-Bf阵的特点"><a href="#1-3-4-Bf阵的特点" class="headerlink" title="1.3.4 Bf阵的特点"></a>1.3.4 <code>Bf</code>阵的特点</h5><p>将<code>Bf</code>阵中的<strong>列向量</strong>按照<strong>树支在前，连支在后</strong>的原则排列，则有：</p>
@@ -109,7 +124,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/image/create_C.jpg"
+                     data-src="/image/knowledge/create_C.jpg"
                       alt="alt 生成Qf阵"
                 ></p>
 <h5 id="1-4-5-Qf阵的特点"><a href="#1-4-5-Qf阵的特点" class="headerlink" title="1.4.5 Qf阵的特点"></a>1.4.5 <code>Qf</code>阵的特点</h5><p>将<code>Qf</code>阵中的<strong>列向量</strong>按照<strong>树支在前，连支在后</strong>的原则排列，则有：</p>
@@ -129,7 +144,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/image/nomal_branch.jpg"
+                     data-src="/image/knowledge/nomal_branch.jpg"
                       alt="alt 一般支路"
                 ></p>
 <blockquote>
@@ -139,7 +154,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/image/fc.png"
+                     data-src="/image/knowledge/fc.png"
                       alt="alt 一般支路的方程"
                 ></p>
 <p>这个方程是从单一支路推广到多个支路的。</p>
@@ -150,90 +165,6 @@
 <h3 id="3-上述理论的应用————生成大型网络的节点导纳矩阵Y阵"><a href="#3-上述理论的应用————生成大型网络的节点导纳矩阵Y阵" class="headerlink" title="3 上述理论的应用————生成大型网络的节点导纳矩阵Y阵"></a>3 上述理论的应用————生成大型网络的节点导纳矩阵<code>Y</code>阵</h3><h4 id="3-1-KCL和KVL的矩阵形式"><a href="#3-1-KCL和KVL的矩阵形式" class="headerlink" title="3.1 KCL和KVL的矩阵形式"></a>3.1 KCL和KVL的矩阵形式</h4><h5 id="3-1-1-KCL的矩阵形式"><a href="#3-1-1-KCL的矩阵形式" class="headerlink" title="3.1.1 KCL的矩阵形式"></a>3.1.1 KCL的矩阵形式</h5><h5 id="3-1-2-KVL的矩阵形式"><a href="#3-1-2-KVL的矩阵形式" class="headerlink" title="3.1.2 KVL的矩阵形式"></a>3.1.2 KVL的矩阵形式</h5><h4 id="3-2-用A阵和Yb阵生成节点导纳矩阵"><a href="#3-2-用A阵和Yb阵生成节点导纳矩阵" class="headerlink" title="3.2 用A阵和Yb阵生成节点导纳矩阵"></a>3.2 用A阵和Yb阵生成节点导纳矩阵</h4>]]></content>
       <tags>
         <tag>电网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>招募编辑</title>
-    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
-    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
-<li>学习或使用过markdown编写md文件</li>
-<li>了解github的使用</li>
-<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li>能接受目前没有报酬</li>
-</ul>
-<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
-]]></content>
-      <tags>
-        <tag>招募编辑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第五章作业思路分享</title>
-    <url>/2023/09/20/%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<h2 id="1-前置知识"><a href="#1-前置知识" class="headerlink" title="1 前置知识"></a>1 前置知识</h2><ul>
-<li>分裂法与网路变动</li>
-<li>补偿定理</li>
-</ul>
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>分裂法与网络变动</p>
-</div><div class="notel-content"><p>对于由几个简单网络通过几条简单支路连接成的一个复杂网络，实际上，节点阻抗矩阵（按网络分块后）除主对角线元素以外，在非主对角线上还存在几个元素。</p>
-<blockquote>
-<p>这几个元素<strong>数目并不多</strong>却使得矩阵求逆的工程量变得相对较大。</p>
-</blockquote>
-<p>如果应用网路变动的思想（主要是补偿定理），将待求的网络理解成几个简单网络增加了几条支路；并应用补偿定理，就能够将一个相对复杂高阶矩阵的求逆运算，转变成几个低阶相对简单矩阵的求逆运算过程，简化了求解运算的复杂程度。</p>
-</div></div>
-
-<details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Folding 补偿定理： 点击查看更多 </summary>
-              <div class='content'>
-              <div class="note default"><p>这里实际上并不要求掌握</p></div><p>已知矩阵方程如下，要求X</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-3.png"
-                      alt="alt "
-                ></p><p>对于矩阵A</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-1.png"
-                      alt="alt "
-                ></p><p>由此矩阵方程可变为：</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-4.png"
-                      alt="alt "
-                ></p><p>其中A矩阵的变化量可分解为</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-2.png"
-                      alt="alt "
-                ></p><p>则有</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-5.png"
-                      alt="alt "
-                ></p><p>令<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-6.png"
-                      alt="alt "
-                ></p><p>则有</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/bc-7.png"
-                      alt="alt "
-                ></p><p>此后求解X的过程，就可以应用高斯消去法（对矩阵进行初等行变换变行阶梯，进而化成行最简）求解X</p>
-              </div>
-            </details>
-
-<p>通过补偿定理的知识，分裂法可用如下矩阵进行数学描述</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit5/solve-1.png"
-                      alt="alt "
-                ></p>
-<h2 id="2-解题思路"><a href="#2-解题思路" class="headerlink" title="2 解题思路"></a>2 解题思路</h2><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>生成Yn(0)</p>
-</div><div class="notel-content"></div></div>]]></content>
-      <tags>
-        <tag>作业思路分享</tag>
       </tags>
   </entry>
   <entry>
@@ -324,6 +255,115 @@
 
 ]]></content>
       <tags>
+        <tag>电网络</tag>
+        <tag>作业思路分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第五章作业思路分享</title>
+    <url>/2023/09/20/%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h2 id="1-前置知识"><a href="#1-前置知识" class="headerlink" title="1 前置知识"></a>1 前置知识</h2><ul>
+<li>分裂法与网路变动</li>
+<li>补偿定理</li>
+</ul>
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>分裂法与网络变动</p>
+</div><div class="notel-content"><p>对于由几个简单网络通过几条简单支路连接成的一个复杂网络，实际上，节点阻抗矩阵（按网络分块后）除主对角线元素以外，在非主对角线上还存在几个元素。</p>
+<blockquote>
+<p>这几个元素<strong>数目并不多</strong>却使得矩阵求逆的工程量变得相对较大。</p>
+</blockquote>
+<p>如果应用网路变动的思想（主要是补偿定理），将待求的网络理解成几个简单网络增加了几条支路；并应用补偿定理，就能够将一个相对复杂高阶矩阵的求逆运算，转变成几个低阶相对简单矩阵的求逆运算过程，简化了求解运算的复杂程度。</p>
+</div></div>
+
+<details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>补偿定理： 点击查看更多 </summary>
+              <div class='content'>
+              <div class="note default"><p>这里实际上并不要求掌握</p></div><p>已知矩阵方程如下，要求X</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-3.png"
+                      alt="alt "
+                ></p><p>对于矩阵A</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-1.png"
+                      alt="alt "
+                ></p><p>由此矩阵方程可变为：</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-4.png"
+                      alt="alt "
+                ></p><p>其中A矩阵的变化量可分解为</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-2.png"
+                      alt="alt "
+                ></p><p>则有</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-5.png"
+                      alt="alt "
+                ></p><p>令<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-6.png"
+                      alt="alt "
+                ></p><p>则有</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/bc-7.png"
+                      alt="alt "
+                ></p><p>此后求解X的过程，就可以应用高斯消去法（对矩阵进行初等行变换变行阶梯，进而化成行最简）求解X</p>
+              </div>
+            </details>
+
+<p>通过补偿定理的知识，分裂法可用如下矩阵进行数学描述</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/solve-1.png"
+                      alt="alt "
+                ></p>
+<h2 id="2-解题思路"><a href="#2-解题思路" class="headerlink" title="2 解题思路"></a>2 解题思路</h2><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>生成Yn(0)</p>
+</div><div class="notel-content"><p>实际上，按网络分块后，Yn0中每一个子块都是相同的二阶矩阵<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/solve-2.png"
+                      alt="alt "
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/solve-3.png"
+                      alt="alt "
+                ></p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>生成A阵</p>
+</div><div class="notel-content"><p>A阵中元素的正负实际上与有向支路的方向有关；正如<a class="button " href='https://sfj2001.github.io/2023/09/19/%E3%80%8A%E7%94%B5%E7%BD%91%E7%BB%9C%E3%80%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/' title='第二章'>第二章</a>所讨论的那样</p>
+<blockquote>
+<p>支路10、11、12上的电流方向是任意取定的，这里我们取由节点编号较小的流向节点编号较大的。</p>
+</blockquote>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/solve-4.png"
+                      alt="alt "
+                ></p>
+</div></div>
+
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>高斯消去</p>
+</div><div class="notel-content"><ul>
+<li>通过将待求矩阵化成行阶梯型，先求解支路电流</li>
+<li>将支路电流带入，最终求得各节点电压</li>
+</ul>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>附加说明</p>
+</div><div class="notel-content"><p>分裂法不仅只有分裂支路电流的情况，回路电流、割集的相关参数都可以予以分裂。</p>
+<p>从手算角度，也许分裂法过于繁琐；但从工程实际角度分析，通过繁琐的步骤，能够减小一次计算的存储容量；在一定算力的情况下，给分析大型网络提供了可能。</p>
+</div></div>]]></content>
+      <tags>
+        <tag>电网络</tag>
         <tag>作业思路分享</tag>
       </tags>
   </entry>
