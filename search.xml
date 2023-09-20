@@ -176,9 +176,9 @@
 </ul>
 <div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>分裂法与网络变动</p>
 </div><div class="notel-content"><p>对于由几个简单网络通过几条简单支路连接成的一个复杂网络，实际上，节点阻抗矩阵（按网络分块后）除主对角线元素以外，在非主对角线上还存在几个元素。</p>
-<div class="note default"><p>这几个元素<strong>数目并不多</strong>却使得矩阵求逆的工程量变得相对较大。</p>
-</div>
-
+<blockquote>
+<p>这几个元素<strong>数目并不多</strong>却使得矩阵求逆的工程量变得相对较大。</p>
+</blockquote>
 <p>如果应用网路变动的思想（主要是补偿定理），将待求的网络理解成几个简单网络增加了几条支路；并应用补偿定理，就能够将一个相对复杂高阶矩阵的求逆运算，转变成几个低阶相对简单矩阵的求逆运算过程，简化了求解运算的复杂程度。</p>
 </div></div>
 
@@ -217,11 +217,24 @@
                 ></p><p>则有</p><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/image/homework/unit/bc-7.png"
+                     data-src="/image/homework/unit5/bc-7.png"
                       alt="alt "
                 ></p><p>此后求解X的过程，就可以应用高斯消去法（对矩阵进行初等行变换变行阶梯，进而化成行最简）求解X</p>
               </div>
-            </details>]]></content>
+            </details>
+
+<p>通过补偿定理的知识，分裂法可用如下矩阵进行数学描述</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit5/solve-1.png"
+                      alt="alt "
+                ></p>
+<h2 id="2-解题思路"><a href="#2-解题思路" class="headerlink" title="2 解题思路"></a>2 解题思路</h2><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>生成Yn(0)</p>
+</div><div class="notel-content"></div></div>]]></content>
+      <tags>
+        <tag>作业思路分享</tag>
+      </tags>
   </entry>
   <entry>
     <title>第四章作业思路分享</title>
