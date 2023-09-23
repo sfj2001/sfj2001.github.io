@@ -6,7 +6,7 @@
   <link href="https://sfj2001.github.io/atom.xml" rel="self"/>
   
   <link href="https://sfj2001.github.io/"/>
-  <updated>2023-09-20T11:55:44.735Z</updated>
+  <updated>2023-09-23T02:19:48.399Z</updated>
   <id>https://sfj2001.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>电网络例题</title>
+    <link href="https://sfj2001.github.io/2023/09/23/%E7%94%B5%E7%BD%91%E7%BB%9C%E4%BE%8B%E9%A2%98/"/>
+    <id>https://sfj2001.github.io/2023/09/23/%E7%94%B5%E7%BD%91%E7%BB%9C%E4%BE%8B%E9%A2%98/</id>
+    <published>2023-09-23T01:00:00.000Z</published>
+    <updated>2023-09-23T02:19:48.399Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="题目1-生成A、Bf、Qf阵"><a href="#题目1-生成A、Bf、Qf阵" class="headerlink" title="题目1 生成A、Bf、Qf阵"></a>题目1 生成A、Bf、Qf阵</h2><p>如图,为一个有向图，请按照先树枝后连支的顺序,列写A、Bf、Qf阵<br><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/example.png"                      alt="alt "                ></p><!-- 题目一答案（折叠） --><details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>补偿定理： 点击查看更多 </summary>              <div class='content'>              <p class='h3' id="step1-确定树支"><a href="#step1-确定树支" class="headerlink" title="step1:确定树支"></a>step1:确定树支</h3><p>如图确定红色支路为树支<br><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/example_tree.png"                      alt="alt "                ></p><h3 id="step2-确定A阵"><a href="#step2-确定A阵" class="headerlink" title="step2:确定A阵"></a>step2:确定A阵</h3><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/q1-A.png"                      alt="alt "                ></p><h3 id="step3-确定Bf阵"><a href="#step3-确定Bf阵" class="headerlink" title="step3:确定Bf阵"></a>step3:确定Bf阵</h3><p class='h4' id="方法1-公式法"><a href="#方法1-公式法" class="headerlink" title="方法1 公式法"></a>方法1 公式法</h4><p>由公式<br><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/q1-equal-1.png"                      alt="alt "                ></p><h4 id="方法2-观察法（定义法）"><a href="#方法2-观察法（定义法）" class="headerlink" title="方法2 观察法（定义法）"></a>方法2 观察法（定义法）</h4><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/q1-Bf.png"                      alt="alt "                ></p><h3 id="step4-确定Qf阵"><a href="#step4-确定Qf阵" class="headerlink" title="step4:确定Qf阵"></a>step4:确定Qf阵</h3><h4 id="方法1-公式法-1"><a href="#方法1-公式法-1" class="headerlink" title="方法1 公式法"></a>方法1 公式法</h4><p>由公式</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/q1-equal-2.png"                      alt="alt "                ></p><h4 id="方法2-观察法-定义法"><a href="#方法2-观察法-定义法" class="headerlink" title="方法2 观察法(定义法)"></a>方法2 观察法(定义法)</h4><p>如图为基本割集</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/example_gj.png"                      alt="alt "                ></p><p>由上图可以确定Qf阵</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/q1-Qf.png"                      alt="alt "                ></p><div class="note default"><p>显然从手算角度，从定义法出发，列写Bf阵更为简单</p></div>              </div>            </details><h2 id="题目2-计算题"><a href="#题目2-计算题" class="headerlink" title="题目2 计算题"></a>题目2 计算题</h2><p>如图，各元件参数均在图中给出</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/homework/example/example2.png"                      alt="alt "                ></p><ul><li>列写A、Yb、In、Ibs、Yn阵</li><li>以节点7为参考节点，建立节点5、6的<ul><li>（重点）诺顿等值电路，给出参数并绘制电路图</li><li>戴维南等值电路，给出参数并绘制电路图</li></ul></li><li>用分裂法，求各节点电压<ul><li>（重点）切割支路电流</li><li>切割回路电流</li></ul></li></ul><p>未完待续</p>]]></content>
+    
+    
+    <summary type="html">本文主要介绍了几道例题及对应的做题过程</summary>
+    
+    
+    
+    
+    <category term="电网络" scheme="https://sfj2001.github.io/tags/%E7%94%B5%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>第五章作业思路分享</title>
