@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>招募编辑</title>
+    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
+    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
+<li>学习或使用过markdown编写md文件</li>
+<li>了解github的使用</li>
+<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>能接受目前没有报酬</li>
+</ul>
+<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
+]]></content>
+      <tags>
+        <tag>招募</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第二章知识点总结</title>
     <url>/2023/09/19/%E3%80%8A%E7%94%B5%E7%BD%91%E7%BB%9C%E3%80%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h2 id="0-本章的核心问题"><a href="#0-本章的核心问题" class="headerlink" title="0 本章的核心问题"></a>0 本章的核心问题</h2><ul>
@@ -154,18 +169,133 @@
       </tags>
   </entry>
   <entry>
-    <title>招募编辑</title>
-    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
-    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
-<li>学习或使用过markdown编写md文件</li>
-<li>了解github的使用</li>
-<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li>能接受目前没有报酬</li>
+    <title>电网络例题</title>
+    <url>/2023/09/23/%E7%94%B5%E7%BD%91%E7%BB%9C%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="题目1-生成A、Bf、Qf阵"><a href="#题目1-生成A、Bf、Qf阵" class="headerlink" title="题目1 生成A、Bf、Qf阵"></a>题目1 生成A、Bf、Qf阵</h2><p>如图,为一个有向图，请按照先树枝后连支的顺序,列写A、Bf、Qf阵<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example.png"
+                      alt="alt "
+                ></p>
+<!-- 题目一答案（折叠） -->
+<details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>参考答案： 点击查看更多 </summary>
+              <div class='content'>
+              <p class='h3' id="step1-确定树支"><a href="#step1-确定树支" class="headerlink" title="step1:确定树支"></a>step1:确定树支</h3><p>如图确定红色支路为树支<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example_tree.png"
+                      alt="alt "
+                ></p><h3 id="step2-确定A阵"><a href="#step2-确定A阵" class="headerlink" title="step2:确定A阵"></a>step2:确定A阵</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/q1-A.png"
+                      alt="alt "
+                ></p><h3 id="step3-确定Bf阵"><a href="#step3-确定Bf阵" class="headerlink" title="step3:确定Bf阵"></a>step3:确定Bf阵</h3><p class='h4' id="方法1-公式法"><a href="#方法1-公式法" class="headerlink" title="方法1 公式法"></a>方法1 公式法</h4><p>由公式<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/q1-equal-1.png"
+                      alt="alt "
+                ></p><h4 id="方法2-观察法（定义法）"><a href="#方法2-观察法（定义法）" class="headerlink" title="方法2 观察法（定义法）"></a>方法2 观察法（定义法）</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/q1-Bf.png"
+                      alt="alt "
+                ></p><h3 id="step4-确定Qf阵"><a href="#step4-确定Qf阵" class="headerlink" title="step4:确定Qf阵"></a>step4:确定Qf阵</h3><h4 id="方法1-公式法-1"><a href="#方法1-公式法-1" class="headerlink" title="方法1 公式法"></a>方法1 公式法</h4><p>由公式</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/q1-equal-2.png"
+                      alt="alt "
+                ></p><h4 id="方法2-观察法-定义法"><a href="#方法2-观察法-定义法" class="headerlink" title="方法2 观察法(定义法)"></a>方法2 观察法(定义法)</h4><p>如图为基本割集</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example_gj.png"
+                      alt="alt "
+                ></p><p>由上图可以确定Qf阵</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/q1-Qf.png"
+                      alt="alt "
+                ></p><div class="note default"><p>显然从手算角度，从定义法出发，列写Bf阵更为简单</p></div>
+              </div>
+            </details>
+
+
+<h2 id="题目2-计算题"><a href="#题目2-计算题" class="headerlink" title="题目2 计算题"></a>题目2 计算题</h2><p>如图，各元件参数均在图中给出</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2.png"
+                      alt="alt "
+                ></p>
+<ul>
+<li>列写A、Yb、In、Ibs、Yn阵</li>
+<li>以节点7为参考节点，建立节点5、6的<ul>
+<li>（重点）诺顿等值电路，给出参数并绘制电路图</li>
+<li>戴维南等值电路，给出参数并绘制电路图</li>
 </ul>
-<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
+</li>
+<li>用分裂法，求各节点电压<ul>
+<li>（重点）切割支路电流</li>
+<li>切割回路电流</li>
+</ul>
+</li>
+</ul>
+<!-- 题目二答案（折叠） -->
+<details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>参考答案： 点击查看更多 </summary>
+              <div class='content'>
+              <p class='h3' id="step1-确定树支及列写矩阵"><a href="#step1-确定树支及列写矩阵" class="headerlink" title="step1:确定树支及列写矩阵"></a>step1:确定树支及列写矩阵</h3><p>树支及支路如图标注所示：</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_1.png"
+                      alt="alt "
+                ></p><p>由此，建立节点-支路关联矩阵A</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_2.png"
+                      alt="alt "
+                ></p><p>并建立节点导纳矩阵</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_3.png"
+                      alt="alt "
+                ></p><p>确定In矩阵</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_4.png"
+                      alt="alt "
+                ></p><p>确定Ibs矩阵</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_5.png"
+                      alt="alt "
+                ></p><p>由公式确定Yn</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_6.png"
+                      alt="alt "
+                ></p><h3 id="step2-诺顿等值"><a href="#step2-诺顿等值" class="headerlink" title="step2:诺顿等值"></a>step2:诺顿等值</h3><p>为表达方便，这里将矩阵分为Y11、Y12、Y21、Y22四块，如图所示：</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_7.png"
+                      alt="alt "
+                ></p><p>诺顿等效后的节点电压方程</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_8.png"
+                      alt="alt "
+                ></p><h3 id="step3-切割支路电流"><a href="#step3-切割支路电流" class="headerlink" title="step3: 切割支路电流"></a>step3: 切割支路电流</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/example/example2_solve_9.png"
+                      alt="alt "
+                ></p><p class='h2' id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2>
+              </div>
+            </details>
+
+
 ]]></content>
       <tags>
-        <tag>招募</tag>
+        <tag>电网络</tag>
       </tags>
   </entry>
   <entry>
@@ -369,84 +499,6 @@
       <tags>
         <tag>电网络</tag>
         <tag>作业思路分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电网络例题</title>
-    <url>/2023/09/23/%E7%94%B5%E7%BD%91%E7%BB%9C%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="题目1-生成A、Bf、Qf阵"><a href="#题目1-生成A、Bf、Qf阵" class="headerlink" title="题目1 生成A、Bf、Qf阵"></a>题目1 生成A、Bf、Qf阵</h2><p>如图,为一个有向图，请按照先树枝后连支的顺序,列写A、Bf、Qf阵<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/example.png"
-                      alt="alt "
-                ></p>
-<!-- 题目一答案（折叠） -->
-<details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>补偿定理： 点击查看更多 </summary>
-              <div class='content'>
-              <p class='h3' id="step1-确定树支"><a href="#step1-确定树支" class="headerlink" title="step1:确定树支"></a>step1:确定树支</h3><p>如图确定红色支路为树支<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/example_tree.png"
-                      alt="alt "
-                ></p><h3 id="step2-确定A阵"><a href="#step2-确定A阵" class="headerlink" title="step2:确定A阵"></a>step2:确定A阵</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/q1-A.png"
-                      alt="alt "
-                ></p><h3 id="step3-确定Bf阵"><a href="#step3-确定Bf阵" class="headerlink" title="step3:确定Bf阵"></a>step3:确定Bf阵</h3><p class='h4' id="方法1-公式法"><a href="#方法1-公式法" class="headerlink" title="方法1 公式法"></a>方法1 公式法</h4><p>由公式<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/q1-equal-1.png"
-                      alt="alt "
-                ></p><h4 id="方法2-观察法（定义法）"><a href="#方法2-观察法（定义法）" class="headerlink" title="方法2 观察法（定义法）"></a>方法2 观察法（定义法）</h4><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/q1-Bf.png"
-                      alt="alt "
-                ></p><h3 id="step4-确定Qf阵"><a href="#step4-确定Qf阵" class="headerlink" title="step4:确定Qf阵"></a>step4:确定Qf阵</h3><h4 id="方法1-公式法-1"><a href="#方法1-公式法-1" class="headerlink" title="方法1 公式法"></a>方法1 公式法</h4><p>由公式</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/q1-equal-2.png"
-                      alt="alt "
-                ></p><h4 id="方法2-观察法-定义法"><a href="#方法2-观察法-定义法" class="headerlink" title="方法2 观察法(定义法)"></a>方法2 观察法(定义法)</h4><p>如图为基本割集</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/example_gj.png"
-                      alt="alt "
-                ></p><p>由上图可以确定Qf阵</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/q1-Qf.png"
-                      alt="alt "
-                ></p><div class="note default"><p>显然从手算角度，从定义法出发，列写Bf阵更为简单</p></div>
-              </div>
-            </details>
-
-
-<h2 id="题目2-计算题"><a href="#题目2-计算题" class="headerlink" title="题目2 计算题"></a>题目2 计算题</h2><p>如图，各元件参数均在图中给出</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/example/example2.png"
-                      alt="alt "
-                ></p>
-<ul>
-<li>列写A、Yb、In、Ibs、Yn阵</li>
-<li>以节点7为参考节点，建立节点5、6的<ul>
-<li>（重点）诺顿等值电路，给出参数并绘制电路图</li>
-<li>戴维南等值电路，给出参数并绘制电路图</li>
-</ul>
-</li>
-<li>用分裂法，求各节点电压<ul>
-<li>（重点）切割支路电流</li>
-<li>切割回路电流</li>
-</ul>
-</li>
-</ul>
-<p>未完待续</p>
-]]></content>
-      <tags>
-        <tag>电网络</tag>
       </tags>
   </entry>
 </search>
