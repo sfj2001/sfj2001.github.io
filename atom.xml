@@ -6,7 +6,7 @@
   <link href="https://sfj2001.github.io/atom.xml" rel="self"/>
   
   <link href="https://sfj2001.github.io/"/>
-  <updated>2023-09-25T13:26:06.445Z</updated>
+  <updated>2023-09-26T02:36:25.300Z</updated>
   <id>https://sfj2001.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第三章习题</title>
+    <link href="https://sfj2001.github.io/2023/09/26/%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%B9%A0%E9%A2%98/"/>
+    <id>https://sfj2001.github.io/2023/09/26/%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%B9%A0%E9%A2%98/</id>
+    <published>2023-09-26T00:58:39.000Z</published>
+    <updated>2023-09-26T02:36:25.300Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="计算题1"><a href="#计算题1" class="headerlink" title="计算题1"></a>计算题1</h2><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q1.png"                      alt="alt "                ></p><h3 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h3><p>由期望定义：</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q1_solve_1.png"                      alt="alt "                ></p><details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>期望的计算： 点击查看更多 </summary>              <div class='content'>                            </div>            </details><h3 id="相关函数"><a href="#相关函数" class="headerlink" title="相关函数"></a>相关函数</h3><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q1_solve_2.png"                      alt="alt "                ></p><details class="dufult" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>期望的计算： 点击查看更多 </summary>              <div class='content'>                            </div>            </details><h3 id="讨论广义平稳性"><a href="#讨论广义平稳性" class="headerlink" title="讨论广义平稳性"></a>讨论广义平稳性</h3><p>依据：</p><ul><li>Y的期望是一个常数</li><li>Y的相关函数与变量t无关</li></ul><p>说明：Y具有广义平稳性</p><h2 id="计算题2"><a href="#计算题2" class="headerlink" title="计算题2"></a>计算题2</h2><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q2.png"                      alt="alt "                ></p><h3 id="计算Z的自相关函数"><a href="#计算Z的自相关函数" class="headerlink" title="计算Z的自相关函数"></a>计算Z的自相关函数</h3><p>由自相关函数的定义：</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q2_solve_1.png"                      alt="alt "                ></p><h3 id="计算W的自相关函数"><a href="#计算W的自相关函数" class="headerlink" title="计算W的自相关函数"></a>计算W的自相关函数</h3><p>类似地</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q2_solve_2.png"                      alt="alt "                ></p><h3 id="计算Z和W的互相关函数"><a href="#计算Z和W的互相关函数" class="headerlink" title="计算Z和W的互相关函数"></a>计算Z和W的互相关函数</h3><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q2_solve_3.png"                      alt="alt "                ></p><h2 id="计算题4"><a href="#计算题4" class="headerlink" title="计算题4"></a>计算题4</h2><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4.png"                      alt="alt "                ></p><h3 id="均值"><a href="#均值" class="headerlink" title="均值"></a>均值</h3><p>由A、X、Y两两独立，</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_1.png"                      alt="alt "                ></p><p>考虑自相关函数的性质：</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_2.png"                      alt="alt "                ></p><p>显然：</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_3.png"                      alt="alt "                ></p><h3 id="方差"><a href="#方差" class="headerlink" title="方差"></a>方差</h3><p>由方差计算公式：</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_4.png"                      alt="alt "                ></p><p>其中，</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_5.png"                      alt="alt "                ></p><p>显然</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_6.png"                      alt="alt "                ></p><h3 id="自相关函数"><a href="#自相关函数" class="headerlink" title="自相关函数"></a>自相关函数</h3><p><img                       lazyload                     src="/images/loading.svg"                     data-src="/image/randm/homework/q4_solve_7.png"                      alt="alt "                ></p><h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2>]]></content>
+    
+    
+    <summary type="html">第三章习题（计算题）的解法</summary>
+    
+    
+    
+    
+    <category term="随机过程" scheme="https://sfj2001.github.io/tags/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>电网络例题</title>
