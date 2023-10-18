@@ -154,6 +154,27 @@
       </tags>
   </entry>
   <entry>
+    <title>招募编辑</title>
+    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
+    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
+<li>学习或使用过markdown编写md文件</li>
+<li>了解github的使用</li>
+<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>能接受目前没有报酬</li>
+</ul>
+<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
+]]></content>
+      <tags>
+        <tag>招募</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习资料分享</title>
+    <url>/2023/10/18/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p><a href="/text/%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99.rar">学习资料</a>h</p>
+]]></content>
+  </entry>
+  <entry>
     <title>电网络例题</title>
     <url>/2023/09/23/%E7%94%B5%E7%BD%91%E7%BB%9C%E4%BE%8B%E9%A2%98/</url>
     <content><![CDATA[<h2 id="题目1-生成A、Bf、Qf阵"><a href="#题目1-生成A、Bf、Qf阵" class="headerlink" title="题目1 生成A、Bf、Qf阵"></a>题目1 生成A、Bf、Qf阵</h2><p>如图,为一个有向图，请按照先树枝后连支的顺序,列写A、Bf、Qf阵<br><img  
@@ -284,18 +305,206 @@
       </tags>
   </entry>
   <entry>
-    <title>招募编辑</title>
-    <url>/2023/09/19/%E6%8B%9B%E5%8B%9F%E7%BC%96%E8%BE%91/</url>
-    <content><![CDATA[<h3 id="招募要求"><a href="#招募要求" class="headerlink" title="招募要求"></a>招募要求</h3><ul>
-<li>学习或使用过markdown编写md文件</li>
-<li>了解github的使用</li>
-<li>看懂了<a class="link"   href="https://redefine-docs.ohevan.com/modules" >文档1 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://redefine-docs.ohevan.com/tips" >文档2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li>能接受目前没有报酬</li>
+    <title>第六章作业思路分享</title>
+    <url>/2023/10/18/%E7%AC%AC%E5%85%AD%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h2 id="0-写在前面"><a href="#0-写在前面" class="headerlink" title="0 写在前面"></a>0 写在前面</h2><h3 id="状态空间法的意义"><a href="#状态空间法的意义" class="headerlink" title="状态空间法的意义"></a>状态空间法的意义</h3><p>对于一个含有储能元件的网络而言，已有的研究方法是：列写多个微分方程并通过KVL和KCL，最终推导出<strong>一个高阶微分方程</strong>，再进行求解。<br>对高阶微分方程的求解，通常有两种途径：</p>
+<ul>
+<li>利用高等数学求解高阶微分方程的方法，确定网络的时域解；</li>
+<li>利用拉普拉斯变换的方法，把高阶微分方程变换成线性方程，待求得具体的频域解后，再利用拉式反变换求解出时域解。</li>
 </ul>
-<h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>在网站主页点击邮箱，与作者取得联系</p>
+<p>本质上，两种方法只是对高阶微分方程的求解；在每次求解过程中，只能解出一个变量的时域解。其他变量的时域解，需要再列写同等阶数的高阶微分方程，才能求得。</p>
+<p>基于高阶微分方程法的缺陷，结合《矩阵分析》的有关知识，提出了状态空间法。状态空间法将我们关心的物理量（中的几乎全部）取作状态变量中的元素。此后，基于系统中各组分间的物理约束（对于电路而言就是KVL和KCL）列出状态方程；最终，通过求解矩阵指数函数就能够将电路的零输入响应的时域解表达出来。</p>
+<p>了解更多：<br><a href="(https://zhuanlan.zhihu.com/p/114516587)">线性系统理论（一）状态空间描述</a></p>
+<h2 id="1-前置知识"><a href="#1-前置知识" class="headerlink" title="1 前置知识"></a>1 前置知识</h2><ul>
+<li>独立储能元件与网络复杂度阶数</li>
+<li>状态方程的一般形式</li>
+<li>化无穷矩阵级数为有穷矩阵级数的方法</li>
+</ul>
+<h3 id="1-1-网络复杂度阶数"><a href="#1-1-网络复杂度阶数" class="headerlink" title="1.1 网络复杂度阶数"></a>1.1 网络复杂度阶数</h3><p>对于一个含储能元件的电路而言，根据储能元件数目与独立储能元件数目是否相等,电路可分成：</p>
+<ul>
+<li>常态网络(储能元件数 &#x3D; 独立储能元件数目)</li>
+<li>非常态网络</li>
+</ul>
+<h4 id="1-1-1-独立储能元件的概念"><a href="#1-1-1-独立储能元件的概念" class="headerlink" title="1.1.1 独立储能元件的概念"></a>1.1.1 独立储能元件的概念</h4><p>判断储能元件是否独立需要依托：</p>
+<ul>
+<li>纯电感割集</li>
+<li>纯电容回路</li>
+</ul>
+<p>另外，还需要一点《线性代数》的知识。</p>
+<p>如下图所示，左侧为纯电容回路，右侧为纯电感割集。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_1.png"
+                      alt="alt "
+                ></p>
+<p>在纯电容回路和纯电感割集中，显然有：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_1.png"
+                      alt="alt "
+                ></p>
+<p>显然，若确定方程中两个未知量为<strong>基底</strong>，另外一个未知量可以被线性表示。换句话说：该方程相当于是两个n维向量的内积；一个是未知数向量，一个是数值向量。数值向量的秩是1，未知数向量的维数应当是n-1维（对应到这里就是2维）。<br>通过以上的说明，复现出一个问题：增加一个纯电容回路或纯电感割集，就会相应地“剥夺”一个储能元件独立储能元件的地位；该储能元件的电源或电流就能够由外电路唯一确定。</p>
+<p>由此，我们说明完了独立储能元件的概念</p>
+<h4 id="1-1-2-网络复杂度阶数"><a href="#1-1-2-网络复杂度阶数" class="headerlink" title="1.1.2 网络复杂度阶数"></a>1.1.2 网络复杂度阶数</h4><p>网络复杂度阶数描述的是一个网络中独立储能元件的数目，显然，网络复杂度阶数&#x3D;储能元件数目-纯电容回路数-纯电感割集数。</p>
+<p>统计纯电容回路数的方法：</p>
+<ul>
+<li>将网络中非电压源、电容的其他元件全部开路</li>
+<li>统计剩下的基本回路数（对于平面网络，基本回路数就是网孔数）</li>
+</ul>
+<p>统计纯电感割集的方法是类似的，即：</p>
+<ul>
+<li>将非电感和电流源的其他元件短路</li>
+<li>统计剩下的基本割集数</li>
+</ul>
+<h3 id="1-2-状态方程的一般形式"><a href="#1-2-状态方程的一般形式" class="headerlink" title="1.2 状态方程的一般形式"></a>1.2 状态方程的一般形式</h3><p>如图为状态方程的一般形式：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_2.png"
+                      alt="alt "
+                ><br>其中，x表示状态变量；x（是列向量）其中元素的数目等于网络复杂度阶数。u表示输入向量；在电网络中，输入向量数目等于网络中电源的数目。<br>特别地，对于非常态网络，其状态方程表达如下：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_3.png"
+                      alt="alt "
+                ></p>
+<h3 id="1-3-化无穷矩阵级数为有穷矩阵级数的方法"><a href="#1-3-化无穷矩阵级数为有穷矩阵级数的方法" class="headerlink" title="1.3 化无穷矩阵级数为有穷矩阵级数的方法"></a>1.3 化无穷矩阵级数为有穷矩阵级数的方法</h3><h4 id="1-3-1-由矩阵的最小多项式所确定的基"><a href="#1-3-1-由矩阵的最小多项式所确定的基" class="headerlink" title="1.3.1 由矩阵的最小多项式所确定的基"></a>1.3.1 由矩阵的最小多项式所确定的基</h4><p>对于任何一个矩阵，均可以求得其最小多项式：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_4.png"
+                      alt="alt "
+                ></p>
+<p>根据凯莱-哈密尔顿定理：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_5.png"
+                      alt="alt "
+                ><br>（特别地，该矩阵的特征多项式也满足上述方程。）</p>
+<p>由此，可以找到一组基表示任意n阶及以上阶数的矩阵，且表示式的系数唯一；为了说明方便，这里取基为：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_6.png"
+                      alt="alt "
+                ></p>
+<h4 id="1-3-2-无穷矩阵级数的退化"><a href="#1-3-2-无穷矩阵级数的退化" class="headerlink" title="1.3.2 无穷矩阵级数的退化"></a>1.3.2 无穷矩阵级数的退化</h4><p>对于一个可以展开成无穷级数的矩阵函数，以麦克劳林公式为例：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_7.png"
+                      alt="alt "
+                ><br>通过1.3.1中确定的一组基：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_6.png"
+                      alt="alt "
+                ><br>麦克劳林公式随即由无穷级数退化为有穷级数，不妨记为：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_8.png"
+                      alt="alt "
+                ></p>
+<p>自此，我们实现了化无穷矩阵级数为有穷矩阵级数。现在的问题仅限于如何求解表达式的系数了。</p>
+<h3 id="1-3-3-有穷级数系数的确定"><a href="#1-3-3-有穷级数系数的确定" class="headerlink" title="1.3.3 有穷级数系数的确定"></a>1.3.3 有穷级数系数的确定</h3><p>根据凯莱-哈密尔顿定理，将矩阵的特征值带入有穷级数；也满足该方程。<br>显然有：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit6/knowleage_equ_9.png"
+                      alt="alt "
+                ><br>由此，我们将表示式的系数唯一确定了。</p>
 ]]></content>
       <tags>
-        <tag>招募</tag>
+        <tag>电网络</tag>
+        <tag>作业思路分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第四章作业思路分享</title>
+    <url>/2023/09/19/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h3 id="1-前置知识（支路追加法）"><a href="#1-前置知识（支路追加法）" class="headerlink" title="1 前置知识（支路追加法）"></a>1 前置知识（支路追加法）</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-1：追加树支</p>
+</div><div class="notel-content"><ul>
+<li>在参考节点上，追加树支；只有自阻抗位置元素是新增的阻抗值，其余位置元素都是<code>0</code></li>
+<li>在非参考节点上，追加树支<ul>
+<li>自阻抗位置元素为被追加节点自阻抗与新增阻抗值的和</li>
+<li>新增行、列其余位置元素，与被追加支路与其他节点的互阻抗相同</li>
+</ul>
+</li>
+</ul>
+<details class="default" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Folding 如此追加树支的原因： 点击查看更多 </summary>
+              <div class='content'>
+              <div class="note default"><p>这里实际上并不要求掌握</p></div> <p>从节点阻抗矩阵的的定义出发，考虑追加树枝网络的拓扑结构</p><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/add_branch.jpg"
+                      alt="alt "
+                ></p><p>节点阻抗矩阵各元素的定义：</p><ul><li>自阻抗：从某节点注入单位电流，在该节点测得的电压</li><li>互阻抗：从某节点注入单位电流，在其他节点测得的电压</li></ul><p>实际上，在节点i追加树支（引入节点i+1）并在节点i+1注入单位电流，<strong>对于除节点i+1以外的其他节点</strong>而言，与在节点i注入单位电流<em><strong>并没有区别</strong></em>。</p><p>因为节点i+1是通过追加的树支与网络连接的，因此，节点i+1的自阻抗是节点i的自阻抗与追加树支阻抗的和。</p>
+              </div>
+            </details>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-2：追加连支</p>
+</div><div class="notel-content"><p>方法</p>
+<ul>
+<li>确定<code>Am</code>阵</li>
+<li>计算公式中相关量</li>
+</ul>
+<p>注意：  </p>
+<ul>
+<li>每次只增加一条连支</li>
+<li>每次增加连支，节点阻抗矩阵的修正形式如下：</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/with_brach.png"
+                      alt="alt "
+                ></p>
+</div></div>
+<h3 id="2-作业思路"><a href="#2-作业思路" class="headerlink" title="2 作业思路"></a>2 作业思路</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b2</p>
+</div><div class="notel-content"><p>相当于从0矩阵追加树支b1，并引入节点2；矩阵如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/solve-1.png"
+                      alt="alt "
+                ></p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b1、b3</p>
+</div><div class="notel-content"><blockquote>
+<p>追加b1、b3无本质区别，这里只讨论b1的情况 </p>
+</blockquote>
+<p>根据追加树支的原则，b1加在了节点n2(非参考节点)上</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/solve-2.png"
+                      alt="alt "
+                ></p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加连支b3</p>
+</div><div class="notel-content"><blockquote>
+<p>这里只给出了<code>A</code>阵</p>
+</blockquote>
+<p>特别注意：<strong>节点n2是第一个引入的</strong>，因此，A阵第一个元素应讨论<strong>n2节点与b3支路的关系</strong><br>故此，A阵如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/homework/unit4/solve-3.png"
+                      alt="alt "
+                ></p>
+<p>剩下的工作就是计算追加支路后的<code>Zn</code>阵</p>
+</div></div>
+
+<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>补充说明</p>
+</div><div class="notel-content"><p>因为本题已经给定了支路追加的顺序；因此<em><strong>看起来</strong></em>支路追加法应采用“先树支后连支”的方法。<br>实际上，对于一个给定代求的网络，可能树支和连支<strong>交替追加</strong>可能求解起来更为简便。<br>这是因为：进行一次连支的追加计算，就是一个十分庞大的工程；因此趁节点阻抗矩阵阶数低的情况下，完成几个连支的追加是有利于节省储存容量、提高计算速度的。</p>
+</div></div>
+
+<h2 id="3-程序"><a href="#3-程序" class="headerlink" title="3 程序"></a>3 程序</h2><p>为了验证手算结果的准确性，笔者基于Matlab编写了程序用以验证。</p>
+<p><a href="/code/power_network/unit4.rar">点这里下载程序</a></p>
+]]></content>
+      <tags>
+        <tag>电网络</tag>
+        <tag>作业思路分享</tag>
       </tags>
   </entry>
   <entry>
@@ -533,97 +742,6 @@
 <h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2>]]></content>
       <tags>
         <tag>随机过程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第四章作业思路分享</title>
-    <url>/2023/09/19/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E4%BD%9C%E4%B8%9A%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<h3 id="1-前置知识（支路追加法）"><a href="#1-前置知识（支路追加法）" class="headerlink" title="1 前置知识（支路追加法）"></a>1 前置知识（支路追加法）</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-1：追加树支</p>
-</div><div class="notel-content"><ul>
-<li>在参考节点上，追加树支；只有自阻抗位置元素是新增的阻抗值，其余位置元素都是<code>0</code></li>
-<li>在非参考节点上，追加树支<ul>
-<li>自阻抗位置元素为被追加节点自阻抗与新增阻抗值的和</li>
-<li>新增行、列其余位置元素，与被追加支路与其他节点的互阻抗相同</li>
-</ul>
-</li>
-</ul>
-<details class="default" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Folding 如此追加树支的原因： 点击查看更多 </summary>
-              <div class='content'>
-              <div class="note default"><p>这里实际上并不要求掌握</p></div> <p>从节点阻抗矩阵的的定义出发，考虑追加树枝网络的拓扑结构</p><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/add_branch.jpg"
-                      alt="alt "
-                ></p><p>节点阻抗矩阵各元素的定义：</p><ul><li>自阻抗：从某节点注入单位电流，在该节点测得的电压</li><li>互阻抗：从某节点注入单位电流，在其他节点测得的电压</li></ul><p>实际上，在节点i追加树支（引入节点i+1）并在节点i+1注入单位电流，<strong>对于除节点i+1以外的其他节点</strong>而言，与在节点i注入单位电流<em><strong>并没有区别</strong></em>。</p><p>因为节点i+1是通过追加的树支与网络连接的，因此，节点i+1的自阻抗是节点i的自阻抗与追加树支阻抗的和。</p>
-              </div>
-            </details>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>Step-2：追加连支</p>
-</div><div class="notel-content"><p>方法</p>
-<ul>
-<li>确定<code>Am</code>阵</li>
-<li>计算公式中相关量</li>
-</ul>
-<p>注意：  </p>
-<ul>
-<li>每次只增加一条连支</li>
-<li>每次增加连支，节点阻抗矩阵的修正形式如下：</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/with_brach.png"
-                      alt="alt "
-                ></p>
-</div></div>
-<h3 id="2-作业思路"><a href="#2-作业思路" class="headerlink" title="2 作业思路"></a>2 作业思路</h3><div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b2</p>
-</div><div class="notel-content"><p>相当于从0矩阵追加树支b1，并引入节点2；矩阵如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/solve-1.png"
-                      alt="alt "
-                ></p>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加树支b1、b3</p>
-</div><div class="notel-content"><blockquote>
-<p>追加b1、b3无本质区别，这里只讨论b1的情况 </p>
-</blockquote>
-<p>根据追加树支的原则，b1加在了节点n2(非参考节点)上</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/solve-2.png"
-                      alt="alt "
-                ></p>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>追加连支b3</p>
-</div><div class="notel-content"><blockquote>
-<p>这里只给出了<code>A</code>阵</p>
-</blockquote>
-<p>特别注意：<strong>节点n2是第一个引入的</strong>，因此，A阵第一个元素应讨论<strong>n2节点与b3支路的关系</strong><br>故此，A阵如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/image/homework/unit4/solve-3.png"
-                      alt="alt "
-                ></p>
-<p>剩下的工作就是计算追加支路后的<code>Zn</code>阵</p>
-</div></div>
-
-<div class="note-large default"><div class="notel-title"><i class="notel-icon fa-solid fa-info"></i><p>补充说明</p>
-</div><div class="notel-content"><p>因为本题已经给定了支路追加的顺序；因此<em><strong>看起来</strong></em>支路追加法应采用“先树支后连支”的方法。<br>实际上，对于一个给定代求的网络，可能树支和连支<strong>交替追加</strong>可能求解起来更为简便。<br>这是因为：进行一次连支的追加计算，就是一个十分庞大的工程；因此趁节点阻抗矩阵阶数低的情况下，完成几个连支的追加是有利于节省储存容量、提高计算速度的。</p>
-</div></div>
-
-<h2 id="3-程序"><a href="#3-程序" class="headerlink" title="3 程序"></a>3 程序</h2><p>为了验证手算结果的准确性，笔者基于Matlab编写了程序用以验证。</p>
-<p><a href="/code/power_network/unit4.rar">点这里下载程序</a></p>
-]]></content>
-      <tags>
-        <tag>电网络</tag>
-        <tag>作业思路分享</tag>
       </tags>
   </entry>
 </search>
